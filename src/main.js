@@ -8,6 +8,8 @@ import router from './router'
 import api from './api/index.js'
 // 引用工具文件
 import utils from './utils/index.js'
+// 引用vue-resource插件
+import VueResource from 'vue-resource'
 
 import './style/vendor/bootstrap/css/bootstrap.min.css'
 import './style/css/modern-business.css'
@@ -16,6 +18,8 @@ import './style/css/modern-business.css'
 Vue.prototype.$api = api
 // 将工具方法绑定到全局
 Vue.prototype.$utils = utils
+// 将插件绑定到全局
+Vue.use(VueResource)
 
 Vue.config.productionTip = false
 

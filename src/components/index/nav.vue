@@ -1,8 +1,8 @@
 <template>
   <!-- Navigation -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light fixed-top">
+  <nav class="navbar main-menu fixed-top navbar-expand-lg navbar-light bg-white fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="index.html">Mars</a>
+      <a class="navbar-brand" href="/index">Mars</a>
       <button
         class="navbar-toggler navbar-toggler-right"
         type="button"
@@ -46,7 +46,7 @@
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
               <a class="dropdown-item" href="blog-home-1.html">个人主页</a>
               <a class="dropdown-item" href="blog-home-2.html">投稿管理</a>
-              <a class="dropdown-item" href="blog-home-1.html">个人中心</a>
+              <Router-link class="dropdown-item" to="/member/settings">个人中心</Router-link>
               <a class="dropdown-item" href="blog-post.html">退出</a>
             </div>
           </li>
