@@ -1,0 +1,238 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+
+/*
+ * Swiper
+ */
+ .carousel {
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+}
+
+ .carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*
+ * video's tag
+ */
+ .tag {
+  padding: 20px 5px 0;
+  border-right: 1px solid #bbb;
+  border-left: 1px solid #bbb;
+  border-top: 1px solid #bbb;
+  margin-top: 20px;
+ }
+
+ .tag-container {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  font-size: 16px;
+  font-size: 1rem;
+  vertical-align: top;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  margin-bottom: 20px;
+ }
+
+ .tag-container .tag-caption {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+  color: #fff;
+}
+
+.tag-container .tag-caption span {
+  background-color: #fd0005;
+  position: absolute;
+  top: 0;
+  padding: 0 7px;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.tag-container a {
+  display: block;
+  position: absolute;
+  top: -100%;
+  opacity: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  color: inherit;
+}
+
+.tag-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+  margin-left: -15px;
+}
+
+.navbar {
+  min-height: 60px ;
+}
+
+.container a {
+  color: #000000;
+}
+
+.row {
+  margin-left: unset;
+  margin-right: unset;
+}
+
+#main-content-a {
+  border-right: 1px solid #bbb;
+  border-top: 1px solid #bbb;
+  padding: 20px;
+}
+
+#main-content-b {
+  border-left: 1px solid #bbb;
+  border-right: 1px solid #bbb;
+  border-top: 1px solid #bbb;
+  padding: 20px;
+}
+
+.video-mini {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.video-mini .inner {
+  display: inline-block;
+  height: 100%;
+}
+
+.video-mini img {
+  float: left;
+  display: inline-block;
+  width: 80px;
+  height: 60px;
+  overflow: hidden;
+  margin: 0;
+}
+
+.video-mini .padding {
+  padding: 0 10px;
+  margin-left: 85px;
+}
+
+.video-mini a {
+  margin-top: -3px;
+}
+
+.box-header {
+  padding: 8px 15px;
+  background-color: #ffd800;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.box-header h2 {
+  font-size: 14px;
+  margin: 0;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/*
+ * ChannelRandom
+ */
+.box-content{
+  margin-top: 30px;
+ }
+
+.wrap-vid {
+  margin-bottom: 20px;
+}
+
+.vid-name {
+  margin-top: -10px;
+}
+
+.vid-name a {
+  font-size: 19px;
+  color: #000;
+}
+
+.info {
+  margin: 5px 0 10px;
+  font-size: 14px;
+}
+
+.info h5, .info a {
+  font-size: 13px;
+  line-height: 1;
+  margin: 0 0 5px;
+}
+
+.info span {
+  margin-right: 10px;
+}
+
+/*
+ * ChannelHot
+ */
+.btn-1 {
+  color: #f85a46;
+  background-color: transparent;
+  padding: 0;
+  font-weight: 700;
+}
+
+.btn {
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 5px 14px;
+  color: #fff;
+}
+
+.wrap-vid {
+  margin-bottom: 20px;
+}
+
+.post .wrapper {
+  display: inline-block;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.post .wrapper .info h6, .post .wrapper .info a {
+  font-size: 13px;
+  margin: 4px 0;
+}
