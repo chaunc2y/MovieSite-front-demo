@@ -49,8 +49,8 @@
     <div class="container">
       <div class="user-tab mt-4 mx-auto">
         <ul class="nav nav-tabs nav justify-content-center">
-          <li role="presentation" class="nav-item active">
-            <a class="nav-link" data-toggle="tab" href="#home">主页</a>
+          <li role="presentation" class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#home">主页</a>
           </li>
           <li role="presentation" class="nav-item">
             <a class="nav-link" data-toggle="tab" href="#follow">关注</a>
