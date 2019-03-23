@@ -13,19 +13,19 @@
 
         <!-- Multiple Radios (inline) 性别-->
         <div class="form-group row g-mt-15">
-          <label class="col-2 col-form-label text-right" for="radios">Inline Radios</label>
+          <label class="col-2 col-form-label text-right" for="radios">性别</label>
           <div class="col-md-5">
             <label class="radio-inline mr-5" for="radios-0">
               <input type="radio" name="radios" id="radios-0" value="1" checked="checked">
-              1
+              男
             </label>
             <label class="radio-inline mr-5" for="radios-1">
               <input type="radio" name="radios" id="radios-1" value="2">
-              2
+              女
             </label>
             <label class="radio-inline" for="radios-2">
               <input type="radio" name="radios" id="radios-2" value="3">
-              3
+              保密
             </label>
           </div>
         </div>

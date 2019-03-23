@@ -5,10 +5,28 @@
  */
 body {
   padding-top: 56px;
+  font-family: Roboto,Helvetica Neue,Helvetica,Arial;
 }
 
 .main-menu {
   box-shadow: rgba(0, 0, 0, 0.1) 0 1px 2px;
+}
+
+.nav-transparent {
+  opacity:0.7;
+}
+
+.main-menu {
+  margin-top: 50px;
+}
+
+.main-menu-header {
+    height: 40px;
+    text-align: center;
+    display: flex;
+    background-color: #fafafa;
+    border-top: 1px solid #edeeee;
+    margin-top: 5px;
 }
 
 /*
@@ -270,4 +288,250 @@ body {
   height: auto;
   overflow: visible;
   margin-left: 10px;
+}
+
+/*
+ * membermain
+ */
+.user-head {
+  background-color: #fafafa;
+  height: 190px;
+}
+
+.user-head .city {
+  color: #757779;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.user-head .name {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.user-head .introduction {
+  font-size: 15px;
+  line-height: 28px;
+}
+
+.user-head .count-box {
+  display: inline-block;
+  text-align: center;
+}
+
+.user-head .count-box .number {
+  font-size: 18px;
+  color: #1d2129;
+  line-height: 20px;
+}
+
+.user-head .count-box .box-name {
+  font-size: 14px;
+  color: #757779;
+}
+
+.user-head .count-box p {
+  margin-bottom: 0!important;
+  margin-right: 15px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.user-head .count-box .number {
+  font-size: 18px;
+  color: #1d2129;
+  line-height: 20px;
+}
+
+.user-head .user-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+/*
+ * member->follow
+ */
+ .search-empty-hint {
+  display: none;
+  background-image: url(//s1.hdslb.com/bfs/static/jinkela/space/asserts/nodata02.png);
+  background-position: center 120px;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+  color: #6d757a;
+  font-size: 14px;
+  overflow: hidden;
+  text-align: center;
+  padding: 340px 0 80px;
+}
+
+.list-item{
+  border-bottom: 1px solid #eee;
+  display: block;
+  padding: 20px 0;
+  position: relative;
+  line-height: 1;
+}
+
+.list-item .cover {
+  background: url(//s1.hdslb.com/bfs/static/jinkela/space/asserts/video-placeholder.png) 50%;
+  background-size: cover;
+  border-radius: 4px;
+  display: block;
+  float: left;
+  overflow: hidden;
+  position: relative;
+}
+
+.list-item .content {
+  padding: 0 200px 0 0;
+  position: relative;
+  margin-left: 88px;
+  margin-top: 10px;
+}
+
+.list-item .title {
+  font-size: 16px;
+  line-height: 1;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+#page-follows .list-item img {
+  border-radius: 60px;
+  width: 60px;
+  height: 60px;
+}
+
+.list-item .cover img {
+  box-shadow: 0 0 0 1px #edf2f9;
+  border-radius: 4px;
+  display: block;
+}
+
+#page-follows .list-item .desc {
+  color: #6d757a;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  text-overflow: ellipsis;
+  padding-right: 10px;
+  line-height: 20px;
+}
+
+.fans-action {
+  position: absolute;
+  right: 0;
+  top: 9px;
+}
+
+/*
+ * member->ver-videopage
+ */
+
+ .relation-list {
+   margin-bottom: 50px;
+ }
+
+.video-item img {
+  left: 0;
+  top: 20px;
+  height: 100px;
+  width: 160px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.video-item{
+  border-bottom: 1px solid #eee;
+  display: block;
+  padding: 20px 0;
+  position: relative;
+  line-height: 1;
+}
+
+.video-item .cover {
+  background: url(//s1.hdslb.com/bfs/static/jinkela/space/asserts/video-placeholder.png) 50%;
+  background-size: cover;
+  border-radius: 4px;
+  display: block;
+  float: left;
+  overflow: hidden;
+  position: relative;
+}
+
+.video-item .content {
+  padding: 0 200px 0 0;
+  position: relative;
+  margin-left: 200px;
+}
+
+.video-item .headline {
+  height: 24px;
+  font-size: 0;
+  line-height: 23px;
+}
+
+.video-item .channel {
+  float: left;
+  background-color: #fd0005;
+  border-radius: 12px;
+  color: #fff;
+  position: relative;
+  margin-right: 10px;
+  text-align: center;
+  top: 0;
+  padding: 0 7px;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.video-item .title {
+  margin-right: 6px;
+  font-size: 16px;
+  color: #222;
+  max-width: 592px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  float: left;
+}
+
+.video-item .des {
+  margin-top: 14px;
+  width: 762px;
+  max-height: 36px;
+  overflow: hidden;
+  color: #99a2aa;
+  line-height: 18px;
+  display: block;
+}
+
+.video-item .tags {
+  position: absolute;
+  bottom: 20px;
+  left: 182px;
+}
+
+.video.list .so-icon {
+  margin-right: 20px;
+}
+
+.so-icon {
+  display: inline-block;
+  font-size: 12px;
+  height: 12px;
+  vertical-align: text-top;
+  line-height: 12px;
+  padding-left: 16px;
+  position: relative;
+  color: #99a2aa;
 }

@@ -7,7 +7,8 @@ import Tech from '@/page/tech'
 import Film from '@/page/film'
 import Design from '@/page/design'
 import Original from '@/page/original'
-import Settings from '@/page/settings'
+import Settings from '@/page/membersettings'
+import MemberIndex from '@/page/memberindex'
 
 Vue.use(Router)
 
@@ -37,6 +38,9 @@ export default new Router({
     }, {
       path: '/member/settings',
       component: Settings
+    }, {
+      path: '/member/user',
+      component: MemberIndex
     }
   ]
 })

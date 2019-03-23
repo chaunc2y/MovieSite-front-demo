@@ -8,7 +8,7 @@
 <script>
 import Nav from '../components/index/nav.vue'
 import Footer from '../components/index/footer.vue'
-import Container from '../components/settings/container.vue'
+import Container from '../components/membersettings/container.vue'
 export default {
   components: {
     Nav,
