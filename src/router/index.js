@@ -9,6 +9,7 @@ import Design from '@/page/design'
 import Original from '@/page/original'
 import Settings from '@/page/membersettings'
 import MemberIndex from '@/page/memberindex'
+import Contribute from '@/page/contribute'
 
 Vue.use(Router)
 
@@ -41,6 +42,9 @@ export default new Router({
     }, {
       path: '/member/user',
       component: MemberIndex
+    }, {
+      path: '/member/contribute',
+      component: Contribute
     }
   ]
 })

@@ -29,9 +29,9 @@
               class="dropdown-menu dropdown-menu-right"
               aria-labelledby="navbarDropdownPortfolio"
             >
-              <a class="dropdown-item" href="portfolio-1-col.html">回复我的</a>
-              <a class="dropdown-item" href="portfolio-2-col.html">收到的赞</a>
-              <a class="dropdown-item" href="portfolio-3-col.html">我的动态</a>
+              <a class="dropdown-item" href="portfolio-1-col.html">我的消息</a>
+              <a class="dropdown-item" href="portfolio-2-col.html">回复我的</a>
+              <a class="dropdown-item" href="portfolio-3-col.html">收到的赞</a>
             </div>
           </li>
           <li class="nav-item dropdown">
@@ -45,13 +45,12 @@
             >ME</a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
               <Router-link class="dropdown-item" to="/member/user">个人主页</Router-link>
-              <a class="dropdown-item" href="blog-home-2.html">投稿管理</a>
               <Router-link class="dropdown-item" to="/member/settings">个人中心</Router-link>
               <a class="dropdown-item" href="blog-post.html">退出</a>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">收藏</a>
+            <Router-link class="nav-link" to="/member/contribute">投稿</Router-link>
           </li>
         </ul>
       </div>
