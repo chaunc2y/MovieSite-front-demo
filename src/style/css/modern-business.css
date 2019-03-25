@@ -8,6 +8,8 @@ body {
   font-family: Roboto,Helvetica Neue,Helvetica,Arial;
 }
 
+.video-frame {outline:none;}
+
 .main-menu {
   box-shadow: rgba(0, 0, 0, 0.1) 0 1px 2px;
 }
@@ -534,4 +536,134 @@ img {
   padding-left: 16px;
   position: relative;
   color: #99a2aa;
+}
+
+/*
+ * video-content
+ */
+.video-info .video-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #212121;
+  line-height: 26px;
+  height: 26px;
+  margin-bottom: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.video-info .video-data {
+  margin-top: 11px;
+  font-size: 14px;
+  height: 16px;
+  color: #999;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.video-info .video-data .a-crumbs {
+  margin-right: 16px;
+}
+
+.video-info .video-data .argue, .video-info .video-data .copyright {
+  margin-left: 16px;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.box-shadow {
+  box-shadow: 0 0 8px #e5e9ef;
+}
+
+.video-content-body .author-info {
+  width: 100%;
+  height: 80px;
+  border-top: 1px solid #edeeee;
+  border-bottom: 1px solid #edeeee;
+  font-size: 12px;
+  padding: 20px 0;
+  position: relative;
+  color: #4a4a4a;
+}
+
+.author-box {
+  margin-left: 40px
+}
+
+.video-content-body .author-info .face {
+  width: 40px;
+  height: 40px;
+  float: left;
+}
+
+.video-content-body .author-info .face img {
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.video-content-body .author-info .author-box {
+  width: 200px;
+  float: left;
+}
+
+.video-content-body .author-info .author-name {
+  font-size: 14px;
+}
+
+.author-box p {
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.al-c {
+  font-size: 14px;
+  color: #9b9b9b;
+}
+
+.video-praise-tools {
+  width: 680px;
+  margin: 40px auto 50px auto;
+  height: 150px;
+  position: relative;
+}
+
+.detail-digg {
+  width: 90px;
+  position: absolute;
+  top: 50%;
+  left: 54%;
+  margin-top: -44.5px;
+  margin-left: -44.5px;
+}
+
+.comment-img {
+  width: 40px;
+  height: 40px;
+}
+
+.praise-count {
+  line-height: 20px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 130px;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+.g-brd-y {
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+  border-color: #eee
 }

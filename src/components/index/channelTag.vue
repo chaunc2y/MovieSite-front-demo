@@ -5,7 +5,7 @@
         <div class="tag-container">
           <div class="tag-caption">
             <span>Video's Tag</span>
-            <a href></a>
+            <Router-link to="/videocontent"></Router-link>
           </div>
           <img class="tag-img" src="/static/images/img13.jpg">
         </div>

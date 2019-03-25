@@ -51,14 +51,79 @@
         <!-- Sidebar Column -->
         <div class="col-lg-2 mb-4">
           <div class="list-group">
-            <a href="index.html" class="list-group-item">视频投稿</a>
-            <a href="about.html" class="list-group-item">作品管理</a>
+            <Router-link to="/member/contribute" class="list-group-item list-group-item active">视频投稿</Router-link>
+            <Router-link to="/member/manager" class="list-group-item">作品管理</Router-link>
           </div>
         </div>
         <!-- Content Column -->
         <div class="col-lg-10 mb-4">
-          <h2>Section Heading</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, et temporibus, facere perferendis veniam beatae non debitis, numquam blanditiis necessitatibus vel mollitia dolorum laudantium, voluptate dolores iure maxime ducimus fugit.</p>
+          <h2>视频投稿</h2>
+          <!-- Text input 用户名-->
+          <div class="form-group row mt-4">
+            <label class="col-1 col-form-label" for="textinput">用户名</label>
+            <div class="col-md-8">
+              <input
+                id="name"
+                name="textinput"
+                type="text"
+                placeholder="placeholder"
+                class="form-control input-md"
+                required
+                data-validation-required-message="Please enter your name."
+              >
+              <p class="help-block"></p>
+            </div>
+          </div>
+          <!-- Select Basic 地区-->
+          <div class="form-group row mt-3">
+            <label class="col-1 col-form-label" for="selectbasic">类型</label>
+            <div class="col-md-4">
+              <select id="selectbasic" name="selectbasic" class="form-control">
+                <option value="1">Option one</option>
+                <option value="2">Option two</option>
+              </select>
+            </div>
+          </div>
+          <!-- Text input 简介-->
+          <div class="form-group row mt-4">
+            <label class="col-1 col-form-label" for="textinput">简介</label>
+            <div class="col-md-8">
+              <textarea class="form-control" rows="3"></textarea>
+            </div>
+          </div>
+          <!-- Text input 封面-->
+          <div class="form-group row mt-4">
+            <label class="col-1 col-form-label" for="textinput">封面</label>
+            <div class="col-md-4">
+              <input
+                id="userIDImageBack"
+                type="file"
+                class="file"
+                data-preview-file-type="text"
+                required
+                name="imgPath"
+              >
+              <p class="help-block"></p>
+            </div>
+            <div class="col-md-4">
+              <img class="col-sm-8" src="/static/images/img13.jpg" alt="样图">
+            </div>
+          </div>
+          <!-- Text input 视频-->
+          <div class="form-group row mt-4">
+            <label class="col-1 col-form-label" for="textinput">视频</label>
+            <div class="col-md-8">
+              <input
+                id="userIDVideoBack"
+                type="file"
+                class="file"
+                data-preview-file-type="text"
+                required
+                name="videoPath"
+              >
+              <p class="help-block"></p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -80,6 +145,12 @@ export default {
     Fans,
     Collect,
     Footer
+  },
+  data() {
+    return {
+      impUploadAPI: '',
+      videoUploadAPI: ''
+    }
   }
 }
 </script>

@@ -10,6 +10,8 @@ import Original from '@/page/original'
 import Settings from '@/page/membersettings'
 import MemberIndex from '@/page/memberindex'
 import Contribute from '@/page/contribute'
+import Manager from '@/page/manager'
+import VideoContent from '@/page/videocontent'
 
 Vue.use(Router)
 
@@ -45,6 +47,12 @@ export default new Router({
     }, {
       path: '/member/contribute',
       component: Contribute
+    }, {
+      path: '/member/manager',
+      component: Manager
+    }, {
+      path: '/videocontent',
+      component: VideoContent
     }
   ]
 })
